@@ -1,0 +1,53 @@
+ body{
+	background-image: url('../img/background/novaTentativa.png');
+}
+#busca-navegacao{
+	background-color: #ffffff;
+	width: 55%; /* Usa x% da largura do container */
+	margin: 0 auto; /* Centraliza horizontalmente */
+	height: 35px; /* altura da area do header */
+	
+}
+#corpo{
+	background-color: #F9DBEB;
+	width: 55%; /* Usa x% da largura do container */
+	height: auto;
+	margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+#corpo-contato{
+	background-color: #F9DBEB;
+	width: 55%; /* Usa x% da largura do container */
+	height: auto;
+	margin: 0 auto; /* Centraliza horizontalmente */
+	text-align: center;
+
+}
+/* parte do site onde vai ter uma amostra de fotos pra contrastar com o texto */
+#fotos{
+	background-color: white;
+/* 	width: 50%;
+	height: auto; */
+	margin: 10px;
+	display: inline-block;
+	
+
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 50% 40%;
+	display: inline-block; 
+}
+/* parte do site que vai ter um texto descritivo sobre algo */
+#corpo-texto{
+	background-color: #ffffff;
+	width: 40%;   /*Usa x% da largura do container */
+	height: auto;
+	margin: 10px; /* Centraliza horizontalmente */
+	text-align: center;
+	display: inline-block;
+}
+#titulo{
+	text-align: center;
+}
